@@ -93,5 +93,26 @@ This workspace includes packages for a real robot (`Yahboom Rosmaster`), demonst
 4.  **Run a launch file:**
     You can now run executables or launch files from any package. For example, to run the `turtlesim` TF2 demo:
     ```bash
+    ```
     ros2 launch learning_tf2_py turtle_tf2_demo_launch.py
+    ```
+
+## Packages in this Workspace
+
+*   **custom_action_interfaces**: Defines a custom action for the Fibonacci sequence.
+*   **learning_tf2_py**: Demonstrates how to use TF2 with `turtlesim` to broadcast and listen for coordinate frame transformations.
+*   **mecanum_drive_controller**: Controller for a mecanum-drive mobile base allowing omnidirectional movement.
+*   **my_package**: A basic example of a ROS 2 node.
+*   **py_launch_example**: Contains a Python-based launch file.
+*   **py_pubsub**: A simple publisher and subscriber example.
+*   **py_srvcli**: A simple service and client example.
+*   **python_parameter_event_handler**: Shows how to respond to parameter changes dynamically.
+*   **python_parameters**: Demonstrates how to declare, set, and use parameters in a node.
+*   **ros_tutorials/turtlesim**: A tool made for teaching ROS and ROS packages.
+*   **tutorial_interfaces**: Defines custom messages and services.
+*   **yahboom_rosmaster**: A metapackage for the Yahboom Rosmaster robot.
+*   **yahboom_rosmaster_bringup**: Contains launch files for bringing up the Yahboom Rosmaster robot.
+*   **yahboom_rosmaster_description**: Contains the URDF and other description files for the Yahboom Rosmaster robot.
+*   **yahboom_rosmaster_gazebo**: Contains the necessary files to simulate the Yahboom Rosmaster robot in Gazebo.
+*   **yahboom_rosmaster_system_tests**: Contains system tests for the Yahboom Rosmaster robot.
     ```
